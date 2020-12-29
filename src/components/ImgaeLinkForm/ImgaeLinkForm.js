@@ -5,7 +5,7 @@ const ImgaeLinkForm = ({ onInputChange, onButtonSumbit }) => {
     return (
         <div>
             <p className='f3'>
-                {'Check this shit out'}
+                {'Check this out'}
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
