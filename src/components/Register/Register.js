@@ -23,7 +23,7 @@ class Register extends React.Component {
     }
 
     onSumbitSignIn = () => {
-        fetch('https://abel-brain-app.herokuapp.com/register',{
+        fetch('https://face-ai-api-a4fa07e0c34b.herokuapp.com/register',{
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

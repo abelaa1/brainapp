@@ -74,7 +74,7 @@ class App extends Component {
 
   onButtonSumbit = () => {
     this.setState({imageURl: this.state.input});
-    fetch('https://abel-brain-app.herokuapp.com/imageurl',{
+    fetch('https://face-ai-api-a4fa07e0c34b.herokuapp.com/imageurl',{
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -84,7 +84,7 @@ class App extends Component {
     .then(response => response.json())
     .then(response => {
       if(response){
-        fetch('https://abel-brain-app.herokuapp.com/image',{
+        fetch('https://face-ai-api-a4fa07e0c34b.herokuapp.com/image',{
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
