@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/brainapp/static/css/main.a5dc0450.css",
+    "main.js": "/brainapp/static/js/main.00117183.js",
+    "index.html": "/brainapp/index.html",
+    "main.a5dc0450.css.map": "/brainapp/static/css/main.a5dc0450.css.map",
+    "main.00117183.js.map": "/brainapp/static/js/main.00117183.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5dc0450.css",
+    "static/js/main.00117183.js"
+  ]
+}
